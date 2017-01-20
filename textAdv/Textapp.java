@@ -1,4 +1,4 @@
-package textBasedCode;
+package prog;
 
 
 import java.util.Scanner;
@@ -14,9 +14,11 @@ public class Textapp {
 			+ "As you look down, you notice you too have a familiar uniform, but it is different and has been wrecked. ");
 	static String expo4 = ("'I don't know' you say. "
 			+ "'Oh, they must have wiped your memory', he says,'Hi, I am Steven and I captain this ship, what do you want to be called?'");
-	static String greet = ("'Hello, " + CharName + " welcome aboard the 'Tater' Steven says. "
+	static String greet = ("'Hello, ");
+	static String greet2 = (" welcome aboard the 'Tater' Steven says. "
 			+ "Steven walks you throughout the 'Tater, it is a class 3 barge Ship that is built to fly under the radar though it has been outfitted nicely with gadgets. "
 			+ "You notice your systems from the pod are being added to the ships navigation systems and screen already. ");
+			
 	static String next = ("'Do you want to pilot?' Steven asks, what is your response?(use lower caps)");
 	
 	static String pilotYes = ("Steven walks you towards the cockpit, 'Try flying the ship', he says as he sits you at the primary controls. "
@@ -58,14 +60,15 @@ public class Textapp {
 	static String aftMark4 = ("'What matters is that they are very evil and have committed horrible acts of violence. We are working with the Republic. We distribute information where we go to get around the massive censorship taking place.' ");
 	static String aftMark5 = ("'Speaking of which, we are going to Republic HQ as we speak.' Steven says, 'They will Catch you up more with what happened when we arrive.' The engines kick into high gear as the ship launches into hyperspeed. ");
 	static String Rep1 = ("As you arrive at Tolaron, you notice the features of the planet. It is comprised mainly of grassy hills and rivers. It is an easy place to hide a organization that is under siege. ");
-	static String Rep2 = ("Hello " + CharName + "'It is a pleasure to meet you, I am commander Rayton.' you see a tall bulky woman who looks like shee invented the concept of boot camp. She is the commander of the Republics 'FootSoldier' division. Who fight specifically on a planet in vehicles or on foot. ");
+	static String Rep2 = ("'Hello ");
+	static String Repdos = (" It is a pleasure to meet you, I am commander Rayton.' you see a tall bulky woman who looks like shee invented the concept of boot camp. She is the commander of the Republics 'FootSoldier' division. Who fight specifically on a planet in vehicles or on foot. ");
 	static String Rep3 = ("Commander Rayton leads you into the HeadQuarters, where she parts ways with you and your crew. As you keep walking, you stumble upon the boardroom. Where all major decisions take place, two old gruff men seem to be squabling but you can't tell what it's about. ");
 	static String Rep4 = ("You continue down the round hallway to a row of offices, one says'Dayton Vasques: Information Manager.'. 'We are here,' says Steven, who seems a little on edge about this confrontation. ");
 	static String Rep5 = ("Immediately as you walk in the door, you here someone yell 'Stevie!', You can only assume it is Dayton. 'How is my buddy doing?' asks Vasques who seems overjoyed that this group is here. ");
 	static String Rep6 = ("'You know, Steve and I go way back.' Dayton says. His Brovado beats that of Steven, a feat you didn't know was possible. 'So, you got the intel?' Dayton asks. Steven pulls a small rectangle from his pocket. ");
 	static String Rep7 = ("'Very Good...' says Dayton. inspecting the files. He copies it and transfers another file to the rectangle. 'I need you to distribute this tot the usual area' Dayton says. 'Y'all have a fun time out there. '");
 	static String Rep8 = ("Steven looks demolished as you leave the room. 'One more place to go before we leave...' Steven says, trying to sound excited. though it is obvious he's not. ");
-	static String Rep9 = ("You arrive at the room of the Duff. He supposedly leads the Republic though he rarely leaves his room. He is more of a pupet leader than an actual one. 'Hello, I'm so glad oyu could mae it' says duff. ");
+	static String Rep9 = ("You arrive at the room of the Duff. He supposedly leads the Republic though he rarely leaves his room. He is more of a pupet leader than an actual one. 'Hello, I'm so glad you could mae it' says duff. ");
 	static String Rep10 = ("'I have a special mission for you,' Duff says. He's had reports that the Federation is trying to infiltrate the Republic and destroy the organization swiftly and without much consequence, so he wants you to investigate the Federation to see what they are doing. ");
 	static String Rep11 = ("Steven gladly takes the opportunity and the paycheck for the job. As you head out, you wonder what happened before this and if you will ever find it out. but before you get lost in thought, you are in the cockpit ready to go. ");
 	static String Rep12 = ("'we need to go to 685, 8642, 8958' Steven proclaims. ");
@@ -107,21 +110,33 @@ public class Textapp {
 	static String volcano = ("When you set your coordinates you feel like you did something wrong. What you did wrong was warp into an active volcano on a lava covered planet. ");
 	static String gCord = ("You are heading toward Megoon. A small city on the sandy land of 65-137. While there. You will distribute the new information to several individuals. ");
 	static String wormholee = ("You unfortunately entered the wrong coordinates and wound up entering worm hole to a planet of fiery slugs which burnt and ate you at the same time.");
-	
+	static String Jarg = ("You successfully input the correct coordinates and are soon heading toward the system of JarGon-A535. On the way there, you have some down time. Through this you meet Klarth, a Jumpyman from the planet Gremulone, he seems normal enough and has an extensive music collection. You bond over a Gremuloin pop song called Pocket Angel, It's a synth heavy tune with bright vocals. Having lunch together, you both talk about what each of your want to dow when you finish work on the 'Tater. ");
+	static String Joey = ("As the two of you are deep in conversation, a short lanky man with thick glasses and freckles joins you at the table. 'Hi, I am Joey.' the freak says, you don't think you've seen this person before. ");
+	static String Joey2 = ("Joey starts talking about similar things as you and Klarth. As it turns out, Joey is actually a pretty cool guy. He is well known among gunners as an accurate shot. ");
+	static String Joey3 = ("After Talking up a storm, you all agree to join up once each of you has finished working on the 'Tater. Soon enough, it is time to land. ");
+	static String JargLand = ("As you land, you start hearing sirens, it seems there is a battle going on between the Federation and a group of local guerillas called Yarma. When your ship docks, blaster fire is heard as a few Yarmas board the ship. ");
+	static String JargTake = ("'Get outta Here!' yells a very tense man, you haven't a clue who he is or what is going on. You gun it and the ship takes off at max speed. This is very uncommon and is almost unheard of but you didn't want to anger the already agitated man behind you. ");
+	static String Aster = ("You blast out of the space port and into the asteroid plane, you need to steer the ship to avoid asteroids. Press a to go left, w to go up, d to go right and s to go down. There is an asteroid above you and another to your left. ");
+	static String Ast2 = ("You avoided the first couple. but now there is one to your left, right and below you. ");
+	static String Ast3 = ("Still making your way through, notice a bunch of Fed Fighters are getting destroyed by the asteroid field. You smirk but not for too long as you see another three asteroids to your right, top and bottom.");
+	static String Ast4 = ("You finally make it out of the field and start going back to Republic HQ. ");
+	static String aDeath = ("You careened into an asteroid and killed everyone aboard. Great Job.");
+	static String HQ1 = ("You land back on Tolarion, at the entrance stands Duff. Who looks stern yet relieved you made it in one piece. 'Do you have the Intel?' Duff asks the angry Yarma man. He pulls out a disk, on it is a folder with family pictures, a pirated tv show, a club remix by pisa 66 of their hit song we are green. There is also a folder called backdoors, in it, there are many different usernames and passwords. ");
+	static String HQ2 = ("Duff looks at The disk and quickly puts it in his desk. 'Thank you vey much, I will see more of you later.'");
 	public static void main(String[] args){
 		
-		Scanner sc = new Scanner(System.in);
 		System.out.println("STAR ADVENTURE");
 		System.out.println("version 0.7");
 		beginMeth();
 	}
 	public static void beginMeth(){
+
 		System.out.println(expo1);
 		System.out.println(expo2);
 		System.out.println(expo3);
 		System.out.println(expo4);
 		CharName = sc.nextLine();
-		System.out.println(greet);
+		System.out.println(greet + CharName + greet2);
 		System.out.println(next);
 		String pResp = sc.nextLine();
 		if(pResp.equals("yes")){
@@ -186,7 +201,7 @@ public class Textapp {
 			System.out.println(aftMark4);
 			System.out.println(aftMark5);
 			System.out.println(Rep1);
-			System.out.println(Rep2);
+			System.out.println(Rep2 + CharName + Repdos);
 			System.out.println(Rep3);
 			System.out.println(Rep4);
 			System.out.println(Rep5);
@@ -296,10 +311,43 @@ public class Textapp {
 		System.out.println(nexDes);
 		String coord3 = sc.nextLine();
 		if(coord3.equals("756, 684, 9546")){
-			
+			jarg();
 		}else{
 			System.out.println(wormholee);
 			System.out.println(death);
+		}
+	}
+	public static void jarg(){
+		System.out.println(Jarg);
+		System.out.println(Joey);
+		System.out.println(Joey2);
+		System.out.println(Joey3);
+		System.out.println(JargLand);
+		System.out.println(JargTake);
+		System.out.println(Aster);
+		String aString = sc.nextLine();
+		if (aString.equals("s") || aString.equals("d")) {
+			System.out.println(Ast2);
+			String nString = sc.nextLine();
+			if(nString.equals("w")){
+
+				System.out.println(Ast3);
+				String dString = sc.nextLine();
+				if (dString.equals("a")) {
+					System.out.println(Ast4);
+					System.out.println(HQ1);
+					System.out.println(HQ2);
+				}else{
+
+					System.out.println(aDeath);
+					System.out.println(death);
+				}
+			}else{
+				System.out.println(aDeath);
+				System.out.println(death);
+			}
+		}else{System.out.println(aDeath);
+		System.out.println(death);
 		}
 	}
 	public static void wimp(){
